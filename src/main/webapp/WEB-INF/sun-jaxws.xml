@@ -1,0 +1,35 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+
+    <endpoint name="DepartmentWebService"
+        implementation="com.example.resources.webServicesImpl.DepartmentWebServiceImpl"
+        url-pattern="/department">
+    </endpoint>
+
+    <endpoint name="EmployeeWebService"
+              implementation="com.example.resources.webServicesImpl.EmployeeWebServiceImpl"
+              url-pattern="/Employee">
+    </endpoint>
+
+    <endpoint name="JobWebService"
+              implementation="com.example.resources.webServicesImpl.JobWebServiceImpl"
+              url-pattern="/Jobopening">
+    </endpoint>
+
+    <endpoint name="LeaveWebService"
+              implementation="com.example.resources.webServicesImpl.LeaveWebServiceImpl"
+              url-pattern="/LeaveManagement">
+    </endpoint>
+
+    <endpoint name="PerformanceWebService"
+              implementation="com.example.resources.webServicesImpl.PerformanceWebServiceImpl"
+              url-pattern="/PerformanceReview">
+    </endpoint>
+
+
+    <endpoint name="SalaryWebService"
+              implementation="com.example.resources.webServicesImpl.SalaryWebServiceImpl"
+              url-pattern="/Salary">
+    </endpoint>
+
+
+</endpoints>

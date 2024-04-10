@@ -1,0 +1,16 @@
+
+w
+java:S1066R"/Merge this if statement with the enclosing one.(…Öà¾þÿÿÿÿ8Þ‚Á°ì1J$3aea48e6-3c0d-4205-adb9-384e867922ea
+w
+java:S1066v"/Merge this if statement with the enclosing one.(…Öà¾þÿÿÿÿ8ß‚Á°ì1J$a16fa013-7319-4ed6-a079-9b34b68fcefe
+p
+java:S5411R"(Use a primitive boolean expression here.(…Öà¾þÿÿÿÿ8‘Èš¸ì1J$43a4e497-9354-4fb1-91d9-81816ca17365
+p
+java:S5411v"(Use a primitive boolean expression here.(…Öà¾þÿÿÿÿ8’Èš¸ì1J$3a187dca-d386-41ad-a019-20ad6f1d9dae
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÛ•Ëþÿÿÿÿ8å‚Á°ì1J$f7acaa71-c324-4334-a3dc-739dbfb5c08b
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Â¢žù8ñ‚Á°ì1J$4e12d82e-d8e7-4cfd-bf2a-e1ee98882cd1
+r	java:S106$"+Replace this use of System.out by a logger.(ìü¾Ÿþÿÿÿÿ8÷‚Á°ì1J$01368e0b-b91f-4eea-8103-b7a7ba1535fc
+r	java:S106-"+Replace this use of System.out by a logger.(Ìä… üÿÿÿÿ8ù‚Á°ì1J$0ef9ee85-87c3-49c0-a9b6-cf72a495be00
+r	java:S1064"+Replace this use of System.out by a logger.(èÛŽËþÿÿÿÿ8ú‚Á°ì1J$ae9a70f3-3095-4806-ba35-78bdafc9be23
+m	java:S1067"+Replace this use of System.out by a logger.(ôí×…8û‚Á°ì1J$eb64ccb9-1f5d-440d-b74e-5224dd5dcd10

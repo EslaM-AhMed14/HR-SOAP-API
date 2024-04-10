@@ -1,0 +1,16 @@
+
+²
+java:S1192D"oDefine a constant instead of duplicating this literal "Multiple salaries found for employee with id: " 3 times.(διαΩ8θα„µμ1J$a749c192-f8b0-4ec8-b176-952fa9ca78a3
+―
+java:S1192B"gDefine a constant instead of duplicating this literal "No salary found for employee with id: " 3 times.(ΫΐΛÿÿÿÿÿ8θα„µμ1J$7b69c255-cb54-4505-9928-c3cb6c3c5f39
+
+java:S11926"KDefine a constant instead of duplicating this literal "employeeId" 4 times.(Ύ8ια„µμ1J$4413ae87-3dcf-493a-a6e9-c74fb4d6fa6e
+Δ
+java:S11925"Define a constant instead of duplicating this literal "SELECT s FROM Salary s WHERE s.employee.employeeId = :employeeId" 3 times.(‹γι;8ια„µμ1J$5850e782-ce28-4510-abde-e81ea17de9b7
+¦
+java:S1488<"^Immediately return this expression instead of assigning it to the temporary variable "salary".(Ζό­όÿÿÿÿ8κα„µμ1J$36673993-8ece-413d-99a1-585d5ca3df03
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§λΆΕ8να„µμ1J$4e9c7b80-6414-4003-a4b7-cb0325ee9eb4
+Ι
+java:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Α›σωÿÿÿÿ8υα„µμ1J$7e0554a6-1cb6-4e5b-98d4-1eff8e879e8e
+„
+java:S1126"AReplace this if-then-else statement by a single return statement.(σήΉΥ8όα„µμ1J$6832b7db-9061-4e5f-afad-c32ceff1fc5b

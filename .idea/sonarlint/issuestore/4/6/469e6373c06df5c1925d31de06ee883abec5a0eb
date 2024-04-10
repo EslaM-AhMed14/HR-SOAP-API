@@ -1,0 +1,13 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ë¢ÅJ$cefad19f-fe14-46d3-9e33-ffa10e85976c
+½
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(†£íóJ$a9d2602a-a49a-4a5d-9bb8-57ee9ee4d9fa
+r	java:S106"+Replace this use of System.out by a logger.(¡¥áÆÿÿÿÿÿ8¬¾­¸ì1J$b9f9397b-9422-4b0f-bab1-4f3347950e0e
+y
+java:S1854$"8Remove this useless assignment to local variable "days".(¸Ì²ÛøÿÿÿÿJ$83c24c69-dbf7-4d25-908e-f3906053dc97
+j
+java:S1481$")Remove this unused "days" local variable.(¸Ì²ÛøÿÿÿÿJ$376fc80f-83b5-485c-9245-d1078106c470
+”
+java:S1128"LRemove this unused import 'com.example.persistence.DTOs.LeaveManagementDto'.(ªíó×úÿÿÿÿ8»ú¬¸ì1J$6e1e592f-a4d8-4293-a152-af22bad39ba3
+p
+java:S1128"-Remove this unused import 'java.time.ZoneId'.( Æ½“8¼ú¬¸ì1J$4a43b7cc-0ee4-4ee2-b69e-629492e3d291

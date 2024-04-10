@@ -1,0 +1,25 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÛ•ËşÿÿÿÿJ$665fe3f5-37b4-4c1c-9514-3085aeee83a2
+f
+java:S2259‹"HA "NullPointerException" could be thrown; "department" is nullable here.(ò¿¾­8àÛê¸ì1
+n
+java:S2095O"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(¨Ù±|8áÛê¸ì1
+n
+java:S2095."RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(¨Ù±|8áÛê¸ì1
+n
+java:S2095@"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(¨Ù±|8áÛê¸ì1
+o
+java:S2095…"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(¨Ù±|8áÛê¸ì1
+[
+java:S2589Œ"8Remove this expression which always evaluates to "false"(œİÊÅùÿÿÿÿ8âÛê¸ì1
+{
+java:S1118":Add a private constructor to hide the implicit public one.(§†ù÷ÿÿÿÿÿJ$6474e403-27e0-483a-8f9a-de2cbdbff74b
+w	java:S1251"<This block of commented-out lines of code should be removed.(”ï—J$34679db8-b9df-4f3a-89ef-b3bc05e08570
+k	java:S1067"+Replace this use of System.out by a logger.(Ö‰êÕüÿÿÿÿJ$acf9c8b3-30db-47a2-9b6e-015f73aa2692
+f	java:S106U"+Replace this use of System.out by a logger.(³ÔJ$186ef711-304f-4377-beba-bbd071dbbbcf
+f	java:S106X"+Replace this use of System.out by a logger.(Ââ´½J$88e37642-598a-49fd-b347-611498d47616
+f	java:S106]"+Replace this use of System.out by a logger.(ÊÓç§J$ffafcd1e-8419-41b8-9ca4-8df2e498a29d
+“
+java:S3776b"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(–¦›äüÿÿÿÿJ$35776bc6-4287-4de3-9f53-7430cb6195c0
+k	java:S106x"+Replace this use of System.out by a logger.(İˆà€úÿÿÿÿJ$63eff681-07a0-49ac-8bfa-9636abb7265d
+g	java:S106‹"+Replace this use of System.out by a logger.(ò¿¾­J$52f4b2d6-a515-49f1-b211-b6f6b187ba5b

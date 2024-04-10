@@ -1,0 +1,9 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÝØå’8Ö£§­ì1J$604007d6-ac81-458d-81b5-78db4214535a
+P
+java:S1128	"4Remove this unused import 'jakarta.ws.rs.PathParam'.(‹Õ÷_8ûö¾µì1
+R
+java:S1128
+"5Remove this unused import 'jakarta.ws.rs.QueryParam'.(ó¡Å±8ýö¾µì1
+Z
+java:S1128"8Remove this unused import 'jakarta.ws.rs.core.Response'.(À ¯¯øÿÿÿÿ8þö¾µì1

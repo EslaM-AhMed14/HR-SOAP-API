@@ -1,0 +1,14 @@
+
+¤
+java:S1192""aDefine a constant instead of duplicating this literal "Not found the Salary in database" 7 times.(£å’ï8£¡ì´ì1J$0e524f1a-30ea-4387-b4e4-50ea95ecd55c
+©
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "salaryDto".(¹ñ¥Üýÿÿÿÿ8§¡ì´ì1J$deeafe35-0e32-4b50-9555-5bc0b1669ae4
+¤
+java:S1488*"bImmediately return this expression instead of assigning it to the temporary variable "salaryDtos".(è¥¢8¨¡ì´ì1J$062b0b78-ced3-497a-97c9-3b5a1f178367
+ª
+java:S14889"bImmediately return this expression instead of assigning it to the temporary variable "salaryDtos".(Ï¶…„þÿÿÿÿ8©¡ì´ì1J$206ae689-8865-4d56-ab6c-f9b076b4ec8d
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜èŸç8®¡ì´ì1J$4eab4cc5-7c9e-4fcb-9b0d-7659c04d1644
+b
+java:S1128"ERemove this unused import 'com.example.CustomException.ErrorMessage'.(ËÝºÛ8âÉê¸ì1
+Z
+java:S1128"8Remove this unused import 'jakarta.ws.rs.core.Response'.(À ¯¯øÿÿÿÿ8äÉê¸ì1

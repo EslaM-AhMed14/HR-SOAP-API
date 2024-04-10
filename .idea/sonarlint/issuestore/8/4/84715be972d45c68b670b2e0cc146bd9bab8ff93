@@ -1,0 +1,10 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ë¢Å8«ßù³ì1J$74cd8991-005b-4557-9f40-2479913bc942
+ƒ
+java:S1193<"@Replace the usage of the "instanceof" operator by a catch block.(çâÖÉ8Àßù³ì1J$c85a4aad-906e-463a-bdda-9cf80d965b9a
+o
+java:S1128"MRemove this unused import 'com.example.persistence.DTOs.PerformancReviewDto'.(–Æ›Öüÿÿÿÿ8ÉËê¸ì1
+b
+java:S1128"ERemove this unused import 'com.example.persistence.connect.Database'.(ÄÄ´»8ÉËê¸ì1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8ÉËê¸ì1

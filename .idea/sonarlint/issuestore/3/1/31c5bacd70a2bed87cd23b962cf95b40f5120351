@@ -1,0 +1,12 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îƒ™öJ$4f321a9e-6de3-4854-a3ae-ade868813167
+w
+java:S1128"4Remove this unused import 'jakarta.ws.rs.core.Link'.(×ŒÀ8§Ø¿·ì1J$78d91db8-b459-4dd2-a7b1-2ca89c8b540e
+‡
+java:S1128"FRemove this unused import 'jakarta.xml.bind.annotation.XmlAccessType'.(ñïæ†şÿÿÿÿJ$8ad11e79-e5fe-42ea-8833-f165e1dd171d
+„
+java:S1128"HRemove this unused import 'jakarta.xml.bind.annotation.XmlAccessorType'.(óæ¢ËJ$e0489756-9680-4ad7-95eb-c1f551c36bc8
+œ
+java:S1128	"TRemove this unused import 'jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter'.(Õá¼ôûÿÿÿÿ8¨Ø¿·ì1J$f758071c-0727-410b-a39b-6b064131dc63
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¨Ø¿·ì1J$a365cb9e-1924-4ea3-83f6-f97d836e6bdc

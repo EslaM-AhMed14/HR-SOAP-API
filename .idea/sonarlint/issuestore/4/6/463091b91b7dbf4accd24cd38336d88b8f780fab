@@ -1,0 +1,5 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îƒ™öJ$4254c966-cffa-4b1e-a906-c913d7c9425e
+—	java:S116+"\Rename this field "AccreditationDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äúÒÿJ$76307030-1f16-4a7f-a3b6-6f5c56f967c5
+‚
+java:S1128"FRemove this unused import 'com.example.persistence.entities.Employee'.(Åüý´J$9c43d6d5-ddf5-4b28-b3ca-83d98800aaa6

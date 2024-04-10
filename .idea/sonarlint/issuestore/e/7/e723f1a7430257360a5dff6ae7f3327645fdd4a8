@@ -1,0 +1,7 @@
+
+–
+java:S1192"UDefine a constant instead of duplicating this literal "Department not found" 3 times.(©ÍÜÙıÿÿÿÿJ$1a464f2b-5389-42c2-b31f-69805ed32237
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÛ•ËşÿÿÿÿJ$276ac138-ecb7-4b0b-8600-e094c27dfb02
+{
+java:S1118":Add a private constructor to hide the implicit public one.(Ü–ÀÅøÿÿÿÿJ$42a61bdc-75f0-49a3-9db1-61a7d8d897b2
+f	java:S106/"+Replace this use of System.out by a logger.(Ãå¶µJ$8c9a9834-abcc-416c-829c-7fde7469e4c1

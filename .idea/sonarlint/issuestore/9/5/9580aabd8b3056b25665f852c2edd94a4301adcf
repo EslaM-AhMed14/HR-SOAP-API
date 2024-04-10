@@ -1,0 +1,10 @@
+
+Ÿ
+java:S1488l"\Immediately return this expression instead of assigning it to the temporary variable "done".(æ¨ıª8Ó·ˆ®ì1J$59cdd7b4-ad3e-4c12-9112-cbebcd0bb92d
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜èŸç8Õ·ˆ®ì1J$8ad719a7-f67a-49e1-b67d-ca15b4481dfa
+ˆ
+java:S1128"ERemove this unused import 'com.example.CustomException.ErrorMessage'.(ËİºÛ8‰È—·ì1J$25de3150-44a7-4a3e-9a62-b9a09a77b9ce
+…
+java:S1128"BRemove this unused import 'jakarta.ws.rs.WebApplicationException'.(£ÁÃ™8‹È—·ì1J$372610df-2faa-4682-97b1-9c0b40673346
+€
+java:S1128"8Remove this unused import 'jakarta.ws.rs.core.Response'.(À ¯¯øÿÿÿÿ8È—·ì1J$b6886159-540a-4058-8074-f680845cd1f2

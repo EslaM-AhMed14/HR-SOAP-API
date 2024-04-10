@@ -1,0 +1,6 @@
+
+¦
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "jobDto".(êÌ–âùÿÿÿÿ8³—æ¯ì1J$0ae5d45c-c3b6-4a20-a97c-53fb7a182825
+¦
+java:S1488R"^Immediately return this expression instead of assigning it to the temporary variable "jobDto".(èÁ¥ïşÿÿÿÿ8Ïë¯ì1J$41a5bbd6-25e0-4203-8fb0-78cef9180554
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜èŸç8¶—æ¯ì1J$91113396-bf1e-4e40-9351-0df9eae60436

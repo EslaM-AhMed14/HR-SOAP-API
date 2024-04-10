@@ -1,0 +1,7 @@
+
+¥
+java:S1488P"bImmediately return this expression instead of assigning it to the temporary variable "department".(ï¬Â™8˜ù€®ì1J$e504efad-21e1-43cd-9b0a-758555b4b631
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ë¢Å8Ÿù€®ì1J$9643d440-8b5b-47fa-870e-86192583373e
+‰
+java:S1126"AReplace this if-then-else statement by a single return statement.(Ù‚Ñıÿÿÿÿ8µù€®ì1J$a8c1af54-95f5-44e1-8b03-bbbfb68abd33
+m	java:S106j"+Replace this use of System.out by a logger.(ÿÅ“8Ïù€®ì1J$fdaafbfe-e48e-4fb4-83b7-b64415bdd601

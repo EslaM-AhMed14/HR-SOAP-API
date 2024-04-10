@@ -1,0 +1,10 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İØå’8Õ¥´ì1J$d449b695-c303-4b7d-9d58-f8ef8134663b
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¸„²ûÿÿÿÿ8à¥´ì1J$97018ead-baa0-416e-904c-21d91cb22f2a
+•	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÆ÷ğşÿÿÿÿ8á¥´ì1J$50afe908-a6f1-458b-8e2b-04f0ffb32f1b
+•	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ô†şùÿÿÿÿ8â¥´ì1J$865372e4-0245-4e0c-bbee-a9881b665c88
+•	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ß¨¤øÿÿÿÿ8ä¥´ì1J$346250ab-5df5-494b-8689-e636f5b75eb6
+R
+java:S1128"5Remove this unused import 'jakarta.ws.rs.QueryParam'.(ó¡Å±8Éê¸ì1
+Z
+java:S1128	"8Remove this unused import 'jakarta.ws.rs.core.Response'.(À ¯¯øÿÿÿÿ8Éê¸ì1
