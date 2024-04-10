@@ -1,0 +1,259 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>HR-SOAP</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>HR-SOAP</name>
+
+    <build>
+        <finalName>HR-SOAP</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+            </plugin>
+
+
+            <!-- Generate entity classes from the database schema -->
+
+<!--            <plugin>-->
+<!--                <groupId>org.hibernate.tool</groupId>-->
+<!--                <artifactId>hibernate-tools-maven</artifactId>-->
+<!--                <version>6.4.4.Final</version>-->
+<!--                <dependencies>-->
+<!--                    <dependency>-->
+<!--                        <groupId>org.hibernate.tool</groupId>-->
+<!--                        <artifactId>hibernate-tools-orm</artifactId>-->
+<!--                        <version>6.4.4.Final</version>-->
+<!--                    </dependency>-->
+<!--                    <dependency>-->
+<!--                        <groupId>mysql</groupId>-->
+<!--                        <artifactId>mysql-connector-java</artifactId>-->
+<!--                        <version>8.0.31</version>-->
+<!--                    </dependency>-->
+<!--                </dependencies>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>entity-generation</id>-->
+<!--                        <phase>generate-sources</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>hbm2java</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <ejb3>true</ejb3>-->
+<!--                            <jdk5>true</jdk5>-->
+<!--                            <packageName>com.example.persistence.entity</packageName>-->
+<!--                            <outputDirectory>src/main/java</outputDirectory>-->
+<!--                            <propertyFile>src/main/resources/hibernate.properties</propertyFile>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+
+            <!---  Compile and Run Main  -->
+
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.1</version>
+                <configuration>
+                    <mainClass>com.example.App</mainClass>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
+
+
+            <!--  https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin  -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+            </plugin>
+            <!--  https://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin  -->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <username>admin</username>
+                    <password>admin</password>
+                    <url>http://localhost:9090/manager/text</url>
+                    <path>/HRSOAP</path>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jersey</groupId>
+                <artifactId>jersey-bom</artifactId>
+                <version>${jersey.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+        </dependency>
+
+        <!-- ORM -->
+
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.4.4.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.31</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>7.0.1.Final</version>
+        </dependency>
+
+        <!-- HikarIcp -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-hikaricp</artifactId>
+            <version>6.1.7.Final</version>
+        </dependency>
+
+        <!-- SOAP -->
+
+        <dependency>
+            <groupId>jakarta.xml.ws</groupId>
+            <artifactId>jakarta.xml.ws-api</artifactId>
+            <version>3.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.xml.ws</groupId>
+            <artifactId>jaxws-rt</artifactId>
+            <version>4.0.2</version>
+            <scope>runtime</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>4.0.2</version>
+            <scope>runtime</scope>
+        </dependency>
+
+
+<!--        <dependency>-->
+<!--            <groupId>com.sun.xml.ws</groupId>-->
+<!--            <artifactId>jaxws-rt</artifactId>-->
+<!--            <version>3.0.2</version>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>3.0.2</version>
+            <scope>runtime</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>9.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <!--MapStruct -->
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>1.4.2.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>1.4.2.Final</version>
+        </dependency>
+
+        <!-- Date Format -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.17.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.17.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-binding</artifactId>
+        </dependency>
+
+
+    </dependencies>
+    <properties>
+        <jersey.version>4.0.0-M1</jersey.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <war.mvn.plugin.version>3.4.0</war.mvn.plugin.version>
+    </properties>
+</project>
