@@ -7,28 +7,28 @@
 
     <endpoint name="EmployeeWebService"
               implementation="com.example.resources.implementation.EmployeeWebServiceImpl"
-              url-pattern="/Employee">
+              url-pattern="/employee">
     </endpoint>
 
     <endpoint name="JobWebService"
               implementation="com.example.resources.implementation.JobWebServiceImpl"
-              url-pattern="/Jobopening">
+              url-pattern="/jobopening">
     </endpoint>
 
     <endpoint name="LeaveWebService"
               implementation="com.example.resources.implementation.LeaveWebServiceImpl"
-              url-pattern="/LeaveManagement">
+              url-pattern="/leaveManagement">
     </endpoint>
 
     <endpoint name="PerformanceWebService"
               implementation="com.example.resources.implementation.PerformanceWebServiceImpl"
-              url-pattern="/PerformanceReview">
+              url-pattern="/performanceReview">
     </endpoint>
 
 
     <endpoint name="SalaryWebService"
               implementation="com.example.resources.implementation.SalaryWebServiceImpl"
-              url-pattern="/Salary">
+              url-pattern="/salary">
     </endpoint>
 
 

@@ -4,10 +4,14 @@ package com.example.persistence.dto;
 
 import com.example.persistence.enums.Gender;
 
+import com.example.persistence.util.LocalDateAdapter;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import jakarta.json.bind.annotation.JsonbDateFormat;
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import lombok.*;
 
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
@@ -25,6 +29,7 @@ import java.time.LocalDate;
 @ToString
 @Data
 @XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class EmployeeDto  implements Serializable {
     private Integer employeeId;
     private  String departmentName;
@@ -33,13 +38,11 @@ public class EmployeeDto  implements Serializable {
     private String lastName;
 
     @JsonbDateFormat("yyyy-MM-dd")
-    @JsonDeserialize(using = LocalDateDeserializer.class)
-    @JsonSerialize(using = LocalDateSerializer.class)
+    @XmlJavaTypeAdapter(LocalDateAdapter.class)
     private LocalDate dateOfBirth;
 
     @JsonbDateFormat("yyyy-MM-dd")
-    @JsonDeserialize(using = LocalDateDeserializer.class)
-    @JsonSerialize(using = LocalDateSerializer.class)
+    @XmlJavaTypeAdapter(LocalDateAdapter.class)
     private LocalDate hireDate;
 
     private Gender gender;

@@ -11,6 +11,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @ToString
 @XmlRootElement
+
 public class DepartmentDto implements Serializable {
     private Integer departmentId;
     private String departmentName;
