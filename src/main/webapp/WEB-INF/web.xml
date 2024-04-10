@@ -5,19 +5,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
-<!--    <listener>-->
-<!--        <listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>-->
-<!--    </listener>-->
-<!--    <servlet>-->
-<!--        <servlet-name>HRSOAP</servlet-name>-->
-<!--        <servlet-class> com.sun.xml.ws.transport.http.servlet.WSServlet </servlet-class>-->
-<!--        <load-on-startup>1</load-on-startup>-->
-<!--    </servlet>-->
-
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>HRSOAP</servlet-name>-->
-<!--        <url-pattern>/api</url-pattern>-->
-<!--    </servlet-mapping>-->
+   <listener>
+        <listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>-->
+    </listener>
+    <servlet>
+        <servlet-name>HRSOAP</servlet-name>-->
+        <servlet-class> com.sun.xml.ws.transport.http.servlet.WSServlet </servlet-class>-->
+        <load-on-startup>1</load-on-startup>-->
+    </servlet>
+<!-- 
+    <servlet-mapping>
+        <servlet-name>HRSOAP</servlet-name>
+        <url-pattern>/api</url-pattern>
+    </servlet-mapping> -->
 
 
     <welcome-file-list>
