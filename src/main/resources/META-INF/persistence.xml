@@ -9,12 +9,12 @@
     <persistence-unit name="DB" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- Entities -->
-        <class>com.example.persistence.entities.Department</class>
-        <class>com.example.persistence.entities.Employee</class>
-        <class>com.example.persistence.entities.Job</class>
-        <class>com.example.persistence.entities.LeaveManagement</class>
-        <class>com.example.persistence.entities.PerformanceReview</class>
-        <class>com.example.persistence.entities.Salary</class>
+        <class>com.example.persistence.entity.Department</class>
+        <class>com.example.persistence.entity.Employee</class>
+        <class>com.example.persistence.entity.Job</class>
+        <class>com.example.persistence.entity.LeaveManagement</class>
+        <class>com.example.persistence.entity.PerformanceReview</class>
+        <class>com.example.persistence.entity.Salary</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.url"

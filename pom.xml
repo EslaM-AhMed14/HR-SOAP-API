@@ -57,7 +57,7 @@
 <!--                        <configuration>-->
 <!--                            <ejb3>true</ejb3>-->
 <!--                            <jdk5>true</jdk5>-->
-<!--                            <packageName>com.example.persistence.entities</packageName>-->
+<!--                            <packageName>com.example.persistence.entity</packageName>-->
 <!--                            <outputDirectory>src/main/java</outputDirectory>-->
 <!--                            <propertyFile>src/main/resources/hibernate.properties</propertyFile>-->
 <!--                        </configuration>-->
