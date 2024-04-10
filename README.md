@@ -44,5 +44,5 @@ To get started with the HR Management System SOAP API, follow these steps:
 
 ## API Documentation
 
-Detailed documentation for the API endpoints can be found [here](https://documenter.getpostman.com/view/33815865/2sA3BgBvx9).
+Detailed documentation for the API endpoints can be found [here](https://documenter.getpostman.com/view/33815865/2sA3BgBw72).
 
