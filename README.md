@@ -13,24 +13,36 @@ Welcome to the HR Management System SOAP API repository! This repository contain
 
 ## Technologies Used
 
-- **Programming Language**: [Specify language(s) used, e.g., Java, C#]
-- **SOAP Framework**: [Specify framework/library used, e.g., Apache CXF, Spring WS]
-- **Database**: [Specify database used, e.g., MySQL, SQL Server]
-- **Authentication**: [Specify authentication method used, e.g., Basic Auth, WS-Security]
+- **Programming Language**: Java
+- **SOAP Framework**: JAX-WS (Java API for XML Web Services)
+- **Database**: MySQL
+- **Authentication**: Basic Authentication, WS-Security
+- **Dependency Management**: Maven
+- **ORM (Object-Relational Mapping)**: Hibernate Core
+- **Connection Pooling**: HikariCP
+- **Validation**: Hibernate Validator
+- **SOAP Implementation Libraries**:
+  - Jakarta XML Web Services API
+  - JAX-WS Runtime
+  - JAXB (Java Architecture for XML Binding) Implementation
+  - Jakarta XML Bind API
+  - GlassFish JAXB 
+- **Web Server Deployment**: Apache Tomcat (via tomcat7-maven-plugin)
+- **JSON Handling**: Jackson Databind, Jackson Datatype JSR310 (for date format)
+- **Testing**: JUnit, Mockito
 
 ## Getting Started
 
 To get started with the HR Management System SOAP API, follow these steps:
 
 1. **Clone the Repository**: `git clone <repository-url>`
-2. **Install Dependencies**: [Specify if any dependencies need to be installed]
-3. **Set Up Database**: [Instructions for setting up the database schema and configuring database connection]
-4. **Run the Application**: [Instructions for running the SOAP service]
-5. **Explore API Documentation**: [Instructions for accessing the WSDL file for API documentation]
+2. **Set Up Database**: Configure the database schema and connection properties. 
+3. **Build the Project**: Compile the Java source files into bytecode using Maven.
+4. **Run the Application**: Deploy the SOAP service on a web server or application server (e.g., Apache Tomcat, JBoss).
+5. **Explore API Documentation**: Access the WSDL (Web Services Description Language) file to understand the available SOAP operations and message formats.
+
 
 ## API Documentation
 
-Detailed documentation for the API endpoints can be found [here](https://documenter.getpostman.com/view/33815865/2sA3BgBw72)
-
-
+Detailed documentation for the API endpoints can be found [here](https://documenter.getpostman.com/view/33815865/2sA3BgBvx9).
 
